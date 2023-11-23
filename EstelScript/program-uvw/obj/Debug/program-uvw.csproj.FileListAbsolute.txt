@@ -1,0 +1,16 @@
+C:\Users\todor\source\repos\program-uvw\bin\Debug\program-uvw.exe.config
+C:\Users\todor\source\repos\program-uvw\bin\Debug\program-uvw.exe
+C:\Users\todor\source\repos\program-uvw\bin\Debug\program-uvw.pdb
+C:\Users\todor\source\repos\program-uvw\obj\Debug\program-uvw.csproj.AssemblyReference.cache
+C:\Users\todor\source\repos\program-uvw\obj\Debug\program-uvw.csproj.SuggestedBindingRedirects.cache
+C:\Users\todor\source\repos\program-uvw\obj\Debug\program-uvw.csproj.CoreCompileInputs.cache
+C:\Users\todor\source\repos\program-uvw\obj\Debug\program-uvw.exe
+C:\Users\todor\source\repos\program-uvw\obj\Debug\program-uvw.pdb
+C:\Users\todor\Desktop\Origin Folder\program-uvw\bin\Debug\program-uvw.exe.config
+C:\Users\todor\Desktop\Origin Folder\program-uvw\bin\Debug\program-uvw.exe
+C:\Users\todor\Desktop\Origin Folder\program-uvw\bin\Debug\program-uvw.pdb
+C:\Users\todor\Desktop\Origin Folder\program-uvw\obj\Debug\program-uvw.csproj.AssemblyReference.cache
+C:\Users\todor\Desktop\Origin Folder\program-uvw\obj\Debug\program-uvw.csproj.SuggestedBindingRedirects.cache
+C:\Users\todor\Desktop\Origin Folder\program-uvw\obj\Debug\program-uvw.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\Origin Folder\program-uvw\obj\Debug\program-uvw.exe
+C:\Users\todor\Desktop\Origin Folder\program-uvw\obj\Debug\program-uvw.pdb

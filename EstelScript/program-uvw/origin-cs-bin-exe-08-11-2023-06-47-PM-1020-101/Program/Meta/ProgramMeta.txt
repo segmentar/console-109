@@ -1,0 +1,30 @@
+
+	o META
+
+	o TYPE
+
+	o LINK
+
+sequence Program : no unused namespace(s)
+
+	>Data
+	<<ProgramData.cs
+
+	>Prototype
+	<<ProgramPrototype.cs
+
+	<Program.cs
+
+
+	/object\OBJECT/ProgramObject.cs\
+
+	/object\OBJECT/ProgramDataObject.cs\
+
+
+	/static\STATIC/ProgramStatic.cs\
+
+	/module\MODULE/ProgramModule.cs\
+
+	/sequence\SEQUENCE/ProgramSequence.cs\
+
+end sequence

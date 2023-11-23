@@ -1,0 +1,32 @@
+
+	o META
+
+	o TYPE
+
+	o LINK
+
+sequence Form : no unused namespace(s)
+
+	>Data
+	<<FormData.cs
+
+	>Prototype
+	<<FormPrototype.cs
+
+	<Form.cs
+
+
+	/object\OBJECT/FormObject.cs\
+
+	/object\OBJECT/FormDataObject.cs\
+
+	/object\OBJECT/FormMeasureObject.cs\
+
+	/object\OBJECT/FormRuntimeObject.cs\
+
+
+	/measure\MEASURE/FormMeasure.cs\
+
+	/runtime\RUNTIME/FormRuntime.cs\
+
+end sequence

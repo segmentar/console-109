@@ -1,0 +1,6 @@
+C:\Users\todor\source\repos\program-rts\bin\Debug\program-rts.dll
+C:\Users\todor\source\repos\program-rts\bin\Debug\program-rts.pdb
+C:\Users\todor\source\repos\program-rts\obj\Debug\program-rts.csproj.AssemblyReference.cache
+C:\Users\todor\source\repos\program-rts\obj\Debug\program-rts.csproj.CoreCompileInputs.cache
+C:\Users\todor\source\repos\program-rts\obj\Debug\program-rts.dll
+C:\Users\todor\source\repos\program-rts\obj\Debug\program-rts.pdb

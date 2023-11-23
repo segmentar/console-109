@@ -1,0 +1,26 @@
+
+	O META o no unused namespace(s)
+
+	O TYPE o no unused namespace(s)
+
+	O LINK o no unused namespace(s)
+
+sequence Form
+
+	>Data
+	<<FormData.cs
+
+	>Prototype
+	<<FormPrototype.cs
+
+	<Form.cs
+
+	/object\OBJECT/FormObject.cs\
+
+	/object\OBJECT/FormDataObject.cs\
+
+	/sequence\SEQUENCE/FormSequence.cs\
+	
+	/runtime\RUNTIME/FormRuntime.cs\
+
+end sequence

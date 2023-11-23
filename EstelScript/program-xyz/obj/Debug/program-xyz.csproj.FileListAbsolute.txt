@@ -1,0 +1,16 @@
+C:\Users\todor\source\repos\program-xyz\bin\Debug\program-xyz.exe.config
+C:\Users\todor\source\repos\program-xyz\bin\Debug\program-xyz.exe
+C:\Users\todor\source\repos\program-xyz\bin\Debug\program-xyz.pdb
+C:\Users\todor\source\repos\program-xyz\obj\Debug\program-xyz.csproj.AssemblyReference.cache
+C:\Users\todor\source\repos\program-xyz\obj\Debug\program-xyz.csproj.SuggestedBindingRedirects.cache
+C:\Users\todor\source\repos\program-xyz\obj\Debug\program-xyz.csproj.CoreCompileInputs.cache
+C:\Users\todor\source\repos\program-xyz\obj\Debug\program-xyz.exe
+C:\Users\todor\source\repos\program-xyz\obj\Debug\program-xyz.pdb
+C:\Users\todor\Desktop\Origin Folder\program-xyz\bin\Debug\program-xyz.exe.config
+C:\Users\todor\Desktop\Origin Folder\program-xyz\bin\Debug\program-xyz.exe
+C:\Users\todor\Desktop\Origin Folder\program-xyz\bin\Debug\program-xyz.pdb
+C:\Users\todor\Desktop\Origin Folder\program-xyz\obj\Debug\program-xyz.csproj.AssemblyReference.cache
+C:\Users\todor\Desktop\Origin Folder\program-xyz\obj\Debug\program-xyz.csproj.SuggestedBindingRedirects.cache
+C:\Users\todor\Desktop\Origin Folder\program-xyz\obj\Debug\program-xyz.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\Origin Folder\program-xyz\obj\Debug\program-xyz.exe
+C:\Users\todor\Desktop\Origin Folder\program-xyz\obj\Debug\program-xyz.pdb

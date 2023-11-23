@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D28DFE2-099C-49D2-BFB3-7BD610BA9822}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>program_xyz</RootNamespace>
+    <AssemblyName>program-xyz</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>origin-cs-bin-exe-08-09-2023-05-23-1020-101\Studio\2D\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Architecture\Architecture.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\ControlFlowSchedule.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\CompressRaw\ControlFlowScheduleCompressRaw.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Compress\ControlFlowScheduleCompress.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Default\Control\Control.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Link\Policy\ControlFlowScheduleLinkPolicy.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Object\ControlFlowScheduleObject\ControlFlowScheduleObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Prototype\ControlFlowSchedulePrototype.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Type\Make\Default\ControlFlowScheduleMakeDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Type\Make\Default\Surface\ControlFlowScheduleMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Type\Sequence\ControlFlowScheduleSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Type\Sequence\Debug\ControlFlowScheduleSequenceDebug.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Type\Set\Default\ControlFlowScheduleSetDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Type\Set\Default\Surface\ControlFlowScheduleSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Default\Flow\Flow.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Default\Schedule\Schedule.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Data\FormData.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Form.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Link\Policy\FormLinkPolicy.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Module\Default\FormModuleDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Module\FormModule.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Module\Function\01\First\FormModuleFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Module\Function\01\One\FormModuleOne.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Module\Function\02\Second\FormModuleSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Module\Function\02\Two\FormModuleTwo.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Object\FomRuntimeObject\FormRuntimeObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Object\FormDataObject\FormDataObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Object\FormObject\FormObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Prototype\FormPrototype.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Runtime\AdvanceControlFlowSchedule\FormRuntimeAdvanceControlFlowSchedule.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Runtime\CompressRaw\FormRuntimeCompresssRaw.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Runtime\ContentSubstringSafe\FormRuntimeContentSubstringSafe.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Runtime\ContentSubstring\FormRuntimeContentSubstring.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Runtime\FormRuntime.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Runtime\InformationRaw\FormRuntimeInformationRaw.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Runtime\SplitHeaderSafe\FormRuntimeSplitHeaderSafe.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Runtime\SplitHeader\FormRuntimeSplitHeader.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Type\Internal\WriteToFile.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Type\Make\Default\Surface\FormMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Type\Make\Default\FormMakeDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Type\Sequence\Debug\DebugFormSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Type\Sequence\FormSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Type\Set\Default\FormSetDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Type\Set\Default\Surface\FormSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Data\ProgramData.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Link\Policy\ProgramLinkPolicy.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Module\Default\ProgramModuleDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Module\Function\01\First\ProgramModuleFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Module\Function\01\One\ProgramModuleOne.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Module\Function\02\Second\ProgramModuleTwo.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Module\Function\02\Two\ProgramModuleSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Module\Function\03\Third\ProgramModuleThird.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Module\Function\03\Three\ProgramModuleThree.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Module\Function\04\Fourth\ProgramModuleFourth.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Module\Function\04\Four\ProgramModuleFour.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Module\ProgramModule.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Object\ProgramDataObject\ProgramDataObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Object\ProgramObject\ProgramObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Program.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Prototype\ProgramPrototype.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Static\ProgramStatic.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Type\Internal\RecurseTraverseDirectoryFileTuple\RecurseTraverseDirectoryFileTuple.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Type\Internal\ConsoleSetup.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Type\Internal\CurrentSetup.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Type\Internal\WorkingDirectory.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Type\Set\Directory\ProgramSetDirectory.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Type\Make\Default\ProgramMakeDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Type\Make\Default\Surface\ProgramMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Type\Sequence\Debug\DebugProgramSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Type\Sequence\ProgramSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Type\Set\Directory\Surface\ProgramSetDirectorySurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Type\Set\File\ProgramSetFile.cs" />
+    <Compile Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Type\Set\File\Surface\ProgramSetFileSurface.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Studio\4D\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\ControlFlowSchedule\Meta\ControlFlowScheduleMeta.txt" />
+    <Content Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Form\Meta\FormMeta.txt" />
+    <Content Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Program\Meta\ProgramMeta.txt" />
+    <Content Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Studio\1D\Document.txt" />
+    <Content Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Studio\2D\Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="origin-cs-bin-exe-08-09-2023-05-23-1020-101\Studio\3D\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

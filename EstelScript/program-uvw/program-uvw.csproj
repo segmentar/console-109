@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{12B1646B-9FE7-4997-9B13-1955CED30F2D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>program_uvw</RootNamespace>
+    <AssemblyName>program-uvw</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Studio\2D\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Architecture\Architecture.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\CompressRaw\ExpressionCompressRaw.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Compress\ExpressionCompress.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Expression.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Link\Policy\ExpressionLinkPolicy.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Module\Default\ExpressionModuleDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Module\ExpressionModule.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Module\Function\First\ExpressionModuleFunctionFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Module\Function\One\ExpressionModuleFunctionOne.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Object\ExpressionObject\ExpressionObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Prototype\ExpressionPrototype.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Simple\ExpressionSimple.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Static\ExpressionStatic.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Internal\GetBytes\GetBytes.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Internal\Lock\ILock.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Internal\Pointer\InitializePointer.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Internal\Lock\Lock.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Internal\Query\Query.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Internal\Query\IQuery.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Internal\RecurseTraverseView.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Internal\Pointer\SetPointer.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Internal\Lock\SLock.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Internal\Release\Release.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Internal\Unlock\Unlock.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Internal\WriteToFile\WriteToFile.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Make\Default\ExpressionMakeDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Make\Default\Surface\ExpressionMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Make\Variation\Empty\ExpressionMakeEmpty.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Make\Variation\Root\ExpressionMakeRoot.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Make\Variation\Rule\ExpressionMakeRule.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Sequence\Debug\ExpressionSequenceDebug.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Sequence\ExpressionSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Set\Default\ExpressionSetDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Set\Default\Surface\ExpressionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Set\Form\ExpressionSetForm.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Set\Form\Surface\ExpressionSetFormSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Set\Sentence\ExpressionSetSentence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Type\Set\Sentence\Surface\ExpressionSetSentenceSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Data\FormData.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Form.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Link\Policy\FormLinkPolicy.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Measure\FormMeasure.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Module\Default\FormModule.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Module\FormModule.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Module\Function\01\First\FormModuleFunctionFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Module\Function\01\One\FormModuleFunctionOne.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Object\FormDataObject\FormDataObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Object\FormMeasureObject\FormMeasureObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Object\FormObject\FormObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Object\FormRuntimeObject\FormRuntimeObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Prototype\FormPrototype.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Runtime\CompressRaw\FormRuntimeCompressRaw.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Runtime\ContentSafe\FormRuntimeContentSafe.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Runtime\Content\FormRuntimeContent.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Runtime\ExtenalDebug\FormRuntimeExternalDebug.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Runtime\FormRuntime.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Runtime\HeaderArraySafe\FormRuntimeHeaderArraySafe.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Runtime\HeaderArray\FormRuntimeHeaderArray.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Runtime\NumberOfItemsInHeaderArray\FormRuntimeNumberOfitemsInHeaderArray.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Type\Forge\FormForgeReadFromFile.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Type\Forge\FormForgeStreamPosition.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Type\Make\Default\FormMakeDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Type\Make\Default\Surface\FormMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Type\Sequence\Debug\FormSequenceDebug.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Type\Sequence\FormSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Type\Set\ReadFromFile\FormSetReadFromFile.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Type\Set\ReadFromFile\Surface\FormSetReadFromFileSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Type\Void\FormVoidAdvanceStreamPosition.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Data\ProgramData.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Link\Policy\ProgramLinkPolicy.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Module\Default\ProgramModuleDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Module\Function\01\First\ProgramModuleFunctionFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Module\Function\01\One\ProgramModuleFunctionOne.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Module\Function\02\Second\ProgramModuleFunctionSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Module\Function\02\Two\ProgramModuleFunctionTwo.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Module\Function\03\Three\ProgramModuleFunctionThree.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Module\ProgramModule.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Module\Function\03\Third\ProgramModuleFunctionThird.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Object\ProgramDataObject\ProgramDataObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Object\ProgramObject\ProgramObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Program.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Prototype\ProgramPrototype.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Static\ProgramStatic.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Type\Internal\WorkingDirectory.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Type\Set\Directory\ProgramSetDirectory.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Type\Internal\ArrayTuple.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Type\Internal\CurrentTuple.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Type\Internal\SetupConsole.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Type\Make\Default\ProgramMakeDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Type\Make\Default\Surface\ProgramMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Type\Sequence\Debug\DebugProgramSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Type\Sequence\ProgramSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Type\Set\Directory\Surface\ProgramSetDirectorySurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Type\Set\File\ProgramSetFile.cs" />
+    <Compile Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Type\Set\File\Surface\ProgramSetFileSurface.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Studio\4D\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Type\Internal\" />
+    <Folder Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Studio\3D\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Expression\Meta\ExpressionMeta.txt" />
+    <Content Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Form\Meta\FormMeta.txt" />
+    <Content Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Program\Meta\ProgramMeta.txt" />
+    <Content Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Studio\2D\Icon.ico" />
+    <Content Include="origin-cs-bin-exe-08-11-2023-06-47-PM-1020-101\Studio\1D\Document.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

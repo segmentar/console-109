@@ -1,0 +1,27 @@
+
+	O META o no unused namespace(s)
+
+	O TYPE o no unused namespace(s)
+
+	O LINK o no unused namespace(s)
+
+sequence Expression
+
+	>Compress
+	<<ExpressionCompress.cs
+
+	>CompressRaw
+	<<ExpressionCompressRaw.cs
+
+	>Object
+	>>ExpressionObject
+	<<<ExpressionObject.cs
+
+	>Prototype
+	<<ExpressionPrototype.cs
+
+	<Expression.cs
+
+	/sequence\SEQUENCE/ExpressionSequence.cs\
+
+end sequence

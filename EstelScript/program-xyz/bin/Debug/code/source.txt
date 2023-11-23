@@ -1,0 +1,4 @@
+.formOne ..Two ... ....Four ,
+lock hello-world .
+lock bye-world .
+.....
